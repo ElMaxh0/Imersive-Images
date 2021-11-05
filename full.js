@@ -21,8 +21,8 @@ document.onmousemove = function(e){
      var windowHeight = window.innerHeight;
      var screenWidth = screen.width;
      var screenHeight = screen.height;
-     document.getElementById('imageload').style.height = ((screenHeight/100)*125)+'px';
-     document.getElementById('imageload').style.width =  ((screenWidth/100)*125)+'px';
+     document.getElementById('image').style.height = ((screenHeight/100)*125)+'px';
+     document.getElementById('image').style.width =  ((screenWidth/100)*125)+'px';
 
  }
  adaptativaapp("imagem");
