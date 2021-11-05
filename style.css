@@ -153,9 +153,3 @@ body {
   transform: rotateY(348.75deg) translateZ(-49vw);
   background-position: 305.32335vw 50%;
 }
-
-@keyframes rot {
-  to {
-    transform: rotateY(1turn);
-  }
-}
