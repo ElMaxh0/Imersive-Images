@@ -25,5 +25,5 @@ document.onmousemove = function(e){
      document.getElementById('imageload').style.width =  ((screenWidth/100)*125)+'px';
 
  }
- adaptativaapp();
+ adaptativaapp("imagem");
    };
