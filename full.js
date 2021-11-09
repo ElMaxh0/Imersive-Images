@@ -12,7 +12,7 @@ document.onmousemove = function(e){
  roty = x*100/mouseposx;
  roty = 180*roty/100;
  roty = roty-90;
- document.getElementById("imagem").style.transform =  "translate(-50%,-50%) rotateX("+(rotx*limite/100)+"deg) rotateY("+(roty*limite/100)+"deg) translateZ(0)";
+ document.getElementById("imagemimersiva").style.transform =  "translate(-50%,-50%) rotateX("+(rotx*limite/100)+"deg) rotateY("+(roty*limite/100)+"deg) translateZ(0)";
  console.log(rotx)
  console.log(roty)
 };
